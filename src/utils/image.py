@@ -14,6 +14,7 @@ def _im_convert(tensor: torch.Tensor):
 
     return image
 
+
 # 画图
 def show_result(images:np.ndarray, preds:np.ndarray, labels:np.ndarray, rows:int = 2, columns:int = 4, figsize:tuple[float,float] = (20,20)):
     fig = plt.figure(figsize=figsize)
